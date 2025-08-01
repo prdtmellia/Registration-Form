@@ -81,6 +81,27 @@ input[type="file"] {
   border-radius: 5px;
 }
 
+@media (min-width: 1024px) {
+  form {
+    padding: 30px;
+    font-size: 1.1rem;
+  }
+
+  input,
+  select,
+  textarea {
+    padding: 0.8em 0.5em;
+    font-size: 1rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1.1rem;
+  }
+}
 
 
 
