@@ -88,7 +88,7 @@ input[type="file"] {
 
 @media (min-width: 1024px) {
   form {
-    padding: 30px;
+    padding: 20px auto;
     font-size: 1.1rem;
   }
 
