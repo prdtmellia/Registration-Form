@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap');
 
-* { 
-  box-sizing: border-box; 
+* {
+  box-sizing: border-box;
 }
 
 body {
@@ -19,21 +19,18 @@ form {
   width: 80vw;
   max-width: 600px;
   margin: 40px auto;
+  color: rgb(187, 24, 24);
   font-weight: bold;
 }
 
 h1, p {
   margin: 0.5em auto;
   text-align: center;
-  color: #BB1818;
-  font-weight: 30px;
 }
-
 
 label {
   display: block;
   margin: 0.5em 0;
-  color: #222222;
 }
 
 input,
@@ -43,7 +40,6 @@ textarea {
   margin: 5px 0 0 0;
   min-height: 2em;
   font-size: 16px;
-  color: #777777;
 }
 
 .inline {
@@ -67,12 +63,8 @@ legend {
 }
 
 a {
-  color: #BB1818;
+  color: rgb(187,24,24);
   text-decoration: underline;
-}
-
-a:hover {
-  color: #961414;
 }
 
 
@@ -98,7 +90,7 @@ input[type="file"] {
 
 @media (min-width: 1024px) {
   form {
-    padding: 20px auto;
+    padding: 30px;
     font-size: 1.1rem;
   }
 
@@ -144,7 +136,6 @@ input[type="file"] {
     font-size: 1rem;
   }
 }
-
 
 
 
